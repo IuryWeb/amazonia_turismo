@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --verde: #8ce444;
+    --verde-amarelo: #d2fb96;
+    --verde-escuro: #045c1c;
+    --verde-claro: #62945b;
+    --verde-branco: #bed3bd;
+}
+
+.car-img {
+    max-height: 35em !important;
+}
+
+.navbar {
+    background-color: var(--verde-claro) !important;
+}
+
+.nav-link {
+    color: var(--verde-branco) !important;
+    background-color: var(--verde-escuro) !important;
+    border-radius: 0.5em !important;
+    margin: 0.3em !important;
+}
+
+.btn-buscar {
+    background-color: var(--verde-escuro) !important;
+    color: var(--verde-branco) !important;
+}
+
+.divisao {
+    background-color: var(--verde-escuro) !important;
+    color: var(--verde-branco) !important;
+    padding: 2em !important;
+    text-align: center !important;
+}
+
+footer {
+    background-color: var(--verde-escuro);
+    color: var(--verde-branco) !important;
+    padding: 1em !important;
+    text-align: center !important;
+}
+
+.sec-sobre {
+    margin: 2% 2% 5% 2% !important;
+    text-align: center !important;
+}
+
+.sobre-img {
+    border: var(--verde-escuro) solid !important;
+}
+
+.txt-sobre {
+    background-color: var(--verde-amarelo);
+    margin: 1% !important;
+    border-radius: 1em !important;
+    padding: 1em !important;
+}
+
+.card {
+    padding: 1% !important;
+    margin: 0% 1% 1% !important;
+}
+
+.card-img-top {
+    width: 10em !important;
+}
+
+.card-text li {
+    margin: 0.5em !important;
+}
+
+.sec-MVV {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    margin: 1% !important;
+    justify-content: center !important;
+}
+
+.sec-criador {
+    background-color: var(--verde-amarelo) !important;
+    padding: 0.5em !important;
+    margin-bottom: 7%;
+}
+
+.sec-sobre h1 {
+    background-color: var(--verde-amarelo) !important;
+    color: var(--verde-escuro) !important;
+    padding: 0.5em !important;
+    border-radius: 0.3em !important;
+}
+
+.criador {
+    text-align: center;
+}
+
+.img-crd {
+    border-radius: 1em !important;
+    width: 500px;
+}
+
+.img-pf {
+    border-radius: 1em !important;
+    width: 200px;
+    margin: 5% !important;
+    border: 0.2em var(--verde-escuro) solid;
+}
+
+@media (min-width: 200px) and (max-width: 768px) {
+
+    .car-img {
+        height: 15em !important;
+    }
+
+    .sec-criador {
+        background-color: var(--verde-amarelo) !important;
+        padding: 0.5em !important;
+        margin-bottom: 28%;
+    }
+
+    .img-crd {
+        border-radius: 1em !important;
+        width: 10em;
+        height: 25em;
+    }
+
+    .img-pf {
+        border-radius: 1em !important;
+        width: 5em;
+        margin: 5% !important;
+        border: 0.2em var(--verde-escuro) solid;
+
+    }
+
+    .txt-pf {
+        font-size: 0.8em;
+        text-align: center;
+    }
+}

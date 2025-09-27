@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --verde: #8ce444;
+    --verde-amarelo: #d2fb96;
+    --verde-escuro: #045c1c;
+    --verde-claro: #62945b;
+    --verde-branco: #bed3bd;
+}
+
+.car-img {
+    max-height: 35em !important;
+}
+
+.navbar {
+    background-color: var(--verde-claro) !important;
+}
+
+.nav-link {
+    color: var(--verde-branco) !important;
+    background-color: var(--verde-escuro) !important;
+    border-radius: 0.5em !important;
+    margin: 0.3em !important;
+}
+
+.btn-buscar {
+    background-color: var(--verde-escuro) !important;
+    color: var(--verde-branco) !important;
+}
+
+.btn-comprar {
+    background-color: var(--verde) !important;
+    color: var(--verde-escuro) !important;
+}
+
+.btn-enviar {
+    background-color: var(--verde-escuro) !important;
+    color: var(--verde-branco) !important;
+    margin: 1% !important;
+}
+
+.divisao {
+    background-color: var(--verde-escuro) !important;
+    color: var(--verde-branco) !important;
+    padding: 2em !important;
+    text-align: center !important;
+}
+
+.carousel-caption{
+    background-color: var(--verde-branco) !important;
+    color: var(--verde-escuro) !important;
+    border-radius: 1em !important;
+}
+
+.card {
+    padding: 1% !important;
+    margin: 0% 1% 1% !important;
+}
+
+.card-img-top {
+    width: 100% !important;
+}
+
+.sec-pacotes {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    margin: 1% !important;
+    justify-content: center !important;
+}
+
+.sec-form {
+    background-color: var(--verde-amarelo) !important;
+    margin: 1% !important;
+    margin-bottom: 8% !important;
+    padding: 0.5em !important;
+    border-radius: 0.5em !important;
+}
+
+.endereco {
+    text-align: center !important;
+    margin-top: 2% !important;
+
+}
+
+.endereco-maps {
+    max-width: 100% !important;
+    justify-items: center !important;
+}
+
+.icon-img {
+    max-width: 30em !important;
+    width: 8% !important;
+}
+
+.midia a {
+    color: var(--verde-escuro) !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    margin: 1em !important;
+}
+
+footer {
+    background-color: var(--verde-escuro);
+    color: var(--verde-branco) !important;
+    padding: 1em !important;
+    text-align: center !important;
+}
+
+@media (min-width: 200px) and (max-width: 768px) {
+
+    .nav-link {
+        color: var(--verde-branco) !important;
+        background-color: var(--verde-escuro) !important;
+        border-radius: 0.5em !important;
+        margin: 0.3em !important;
+        text-align: center !important;
+    }
+
+    .car-img {
+        max-width: 40em !important;
+        width: 30em !important;
+        max-height: 35em !important;
+        height: 15em !important;
+    }
+
+    .carousel-caption {
+        width: auto !important;
+        background-color: var(--marron) !important;
+        color: var(--verde) !important;
+        border-radius: 1em !important;
+        padding: 1% !important;
+    }
+
+    .sec-pacotes {
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+        justify-content: center !important;
+        margin: 1% !important;
+    }
+
+    .card {
+        padding: 1% !important;
+        margin: 0% 1% 1% !important;
+    }
+
+    .card-img {
+        width: auto !important;
+    }
+
+    .btn-comprar {
+        background-color: var(--verde-escuro) !important;
+        color: var(--verde-amarelo) !important;
+    }
+
+    .card-body {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        height: 100%;
+        text-align: justify !important;
+    }
+
+    .icon-img {
+        max-width: 30em !important;
+        width: 25% !important;
+        margin: 1% !important;
+    }
+
+    .midia a {
+        color: var(--verde-escuro) !important;
+        text-align: center !important;
+        text-decoration: none !important;
+        margin: 1em !important;
+    }
+
+    .sec-form {
+        background-color: var(--verde-amarelo) !important;
+        margin: 1% !important;
+        margin-bottom: 30% !important;
+        padding: 0.5em !important;
+        border-radius: 0.5em !important;
+    }
+}
