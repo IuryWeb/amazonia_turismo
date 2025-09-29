@@ -145,4 +145,9 @@ footer {
         font-size: 0.8em;
         text-align: center;
     }
+
+    .c-video{
+        width: 10em;
+        height: 25em;
+    }
 }
