@@ -113,6 +113,10 @@ footer {
 
 @media (min-width: 200px) and (max-width: 768px) {
 
+    .nav-link {
+        text-align: center !important;
+    }
+    
     .car-img {
         height: 15em !important;
     }
